@@ -1,24 +1,28 @@
 # pdoc_documentations
 
-An example for create documentations using pdocs 
+An example for create documentations using pdocs libraries 
 
 ## Installation
 
 ```
-pip3 install pdoc3
+pip install pdoc3
 ```
    
-## How to use
-1. Create documentation
+## Usage
+1. Create a documentation using the following:
 
 ```
 python -m pdoc --html <path to code> --output-dir <path to documentation>
 ```
 
+EXAMPLE:
+
 ```
 python -m pdoc --html src --output-dir docs
 ```
+
 2. Create a html for githubpages to redirect src/index.html
+
 ```
 <!DOCTYPE html>
 <html>
@@ -29,9 +33,11 @@ python -m pdoc --html src --output-dir docs
 
 </html>
 ```
-3. Deploy github pages using <code>/docs</code> as root
 
-[Github Page](https://dquerales.github.io/pdoc_documentations/)
+3. Deploy github pages using <code>/docs</code> as root:
+
+- [Github Page](https://dquerales.github.io/pdoc_documentations/)
+
 
 ## Contact
 
