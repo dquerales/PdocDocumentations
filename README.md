@@ -1,6 +1,6 @@
 # pdoc_documentations
 
-An example for create documentations using pdocs libraries 
+An example about how to create documentations using pdocs library
 
 ## Installation
 
@@ -38,7 +38,7 @@ python -m pdoc --html src --output-dir docs
 
 3. Deploy a github pages using the folder <code>/docs</code> as root:
 
-- [Github Page](https://dquerales.github.io/pdoc_documentations/)
+- [Github Pages](https://dquerales.github.io/PdocDocumentations/src/index.html)
 
 
 ## Contact
